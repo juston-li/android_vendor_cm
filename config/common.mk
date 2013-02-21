@@ -232,7 +232,9 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
-  ro.modversion=$(CM_VERSION)
-
+  ro.modversion=$(CM_VERSION) \
+  ro.goo.developerid=trailblazerz11 \
+  ro.goo.rom=LinaroCM10.1 \
+  ro.goo.version=$(shell date +%s)
 
 -include $(WORKSPACE)/hudson/image-auto-bits.mk
